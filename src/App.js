@@ -1,22 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import InputForm from './components/InputForm';
+import React from 'react'
 
 function App() {
+  const [reviewText, setReviewText] = React.useState("Write your review here");
+  const [machineLearningResponse, setMachineLearningResponse] = React.useState("");
+
+  const handleSubmit = async (evt) => {
+    evt.preventDefault();
+    const url = "https://europe-west1-tdt4173-ml-project.cloudfunctions.net/test-function?message=" + reviewText
+    const response = await fetch(url);
+    const content = await response.text()
+    setMachineLearningResponse(content)
+  }
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <InputForm reviewText={reviewText} setReviewText={setReviewText} handleSubmit={handleSubmit}/>
+        <p>{machineLearningResponse}</p>
       </header>
     </div>
   );
