@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TDT4173-webpage/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/TDT4173-webpage/static/js/main.7933b065.chunk.js",
+    "main.js.map": "/TDT4173-webpage/static/js/main.7933b065.chunk.js.map",
+    "runtime-main.js": "/TDT4173-webpage/static/js/runtime-main.ed2cf69a.js",
+    "runtime-main.js.map": "/TDT4173-webpage/static/js/runtime-main.ed2cf69a.js.map",
+    "static/js/2.f1496b9c.chunk.js": "/TDT4173-webpage/static/js/2.f1496b9c.chunk.js",
+    "static/js/2.f1496b9c.chunk.js.map": "/TDT4173-webpage/static/js/2.f1496b9c.chunk.js.map",
+    "static/js/3.1e98483a.chunk.js": "/TDT4173-webpage/static/js/3.1e98483a.chunk.js",
+    "static/js/3.1e98483a.chunk.js.map": "/TDT4173-webpage/static/js/3.1e98483a.chunk.js.map",
+    "index.html": "/TDT4173-webpage/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/TDT4173-webpage/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.f1496b9c.chunk.js.LICENSE.txt": "/TDT4173-webpage/static/js/2.f1496b9c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed2cf69a.js",
+    "static/js/2.f1496b9c.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.7933b065.chunk.js"
+  ]
+}
