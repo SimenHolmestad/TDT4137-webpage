@@ -17,6 +17,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h2>TDT4173 project - webpage</h2>
         <InputForm reviewText={reviewText} setReviewText={setReviewText} handleSubmit={handleSubmit}/>
         <p>{machineLearningResponse}</p>
       </header>
