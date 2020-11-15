@@ -12,7 +12,7 @@ function App() {
 
   const handleSubmit = async (evt) => {
     evt.preventDefault();
-    setMachineLearningResponse("Fetching data...")
+    setMachineLearningResponse("Calculating results... (this might take som time)")
     const url = "https://europe-west1-tdt4173-ml-project.cloudfunctions.net/function-1?message=" + reviewText
     const response = await fetch(url);
     const content = await response.text()
