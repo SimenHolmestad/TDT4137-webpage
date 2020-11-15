@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/TDT4173-webpage/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/TDT4173-webpage/static/js/main.7b011694.chunk.js",
-    "main.js.map": "/TDT4173-webpage/static/js/main.7b011694.chunk.js.map",
+    "main.js": "/TDT4173-webpage/static/js/main.eac7b772.chunk.js",
+    "main.js.map": "/TDT4173-webpage/static/js/main.eac7b772.chunk.js.map",
     "runtime-main.js": "/TDT4173-webpage/static/js/runtime-main.ed2cf69a.js",
     "runtime-main.js.map": "/TDT4173-webpage/static/js/runtime-main.ed2cf69a.js.map",
     "static/js/2.f1496b9c.chunk.js": "/TDT4173-webpage/static/js/2.f1496b9c.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ed2cf69a.js",
     "static/js/2.f1496b9c.chunk.js",
     "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.7b011694.chunk.js"
+    "static/js/main.eac7b772.chunk.js"
   ]
 }
