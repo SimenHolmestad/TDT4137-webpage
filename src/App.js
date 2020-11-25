@@ -32,14 +32,14 @@ function App() {
         <h2>TDT4173 project - webpage</h2>
         <div className="info-text">
           <p>
-            This website is related to a project in the course TDT4173 – Machine Learning at NTNU. The goal of the project was to try out two different machine learning techniques on the same classification problem – to predict the numbers of stars for the reviews in the <a href="https://www.kaggle.com/yelp-dataset/yelp-dataset">yelp dataset</a>. The methods used are:
+            This website is related to a project in the course TDT4173 – Machine Learning at NTNU. The goal of the project was to try out two different machine learning techniques on the same classification problem – to predict the numbers of stars for the reviews in the <a target="_blank" href="https://www.kaggle.com/yelp-dataset/yelp-dataset">yelp dataset</a>. The methods used are:
           </p>
           <ul>
             <li>k nearest neighbours using bag-of-words</li>
             <li>LSTM using word embeddings</li>
           </ul>
           <p>
-            The project report can be found <a href="http://folk.ntnu.no/simehol/maskinlaering/TDT4173_project.pdf">here</a>. To experiment with how the models perform on new data, try out the form below:
+            The project report can be found <a target="_blank" href="http://folk.ntnu.no/simehol/maskinlaering/TDT4173_project.pdf">here</a>. To experiment with how the models perform on new data, try out the form below:
           </p>
         </div>
         <ModelSelect
