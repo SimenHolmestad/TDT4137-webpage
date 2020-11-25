@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/TDT4173-webpage/static/css/main.5a4786cf.chunk.css",
+    "main.css": "/TDT4173-webpage/static/css/main.facc80a1.chunk.css",
     "main.js": "/TDT4173-webpage/static/js/main.ec873c66.chunk.js",
     "main.js.map": "/TDT4173-webpage/static/js/main.ec873c66.chunk.js.map",
     "runtime-main.js": "/TDT4173-webpage/static/js/runtime-main.dbb9e2ba.js",
@@ -10,13 +10,13 @@
     "static/js/3.d621a5c6.chunk.js": "/TDT4173-webpage/static/js/3.d621a5c6.chunk.js",
     "static/js/3.d621a5c6.chunk.js.map": "/TDT4173-webpage/static/js/3.d621a5c6.chunk.js.map",
     "index.html": "/TDT4173-webpage/index.html",
-    "static/css/main.5a4786cf.chunk.css.map": "/TDT4173-webpage/static/css/main.5a4786cf.chunk.css.map",
+    "static/css/main.facc80a1.chunk.css.map": "/TDT4173-webpage/static/css/main.facc80a1.chunk.css.map",
     "static/js/2.1f33a42e.chunk.js.LICENSE.txt": "/TDT4173-webpage/static/js/2.1f33a42e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.dbb9e2ba.js",
     "static/js/2.1f33a42e.chunk.js",
-    "static/css/main.5a4786cf.chunk.css",
+    "static/css/main.facc80a1.chunk.css",
     "static/js/main.ec873c66.chunk.js"
   ]
 }
