@@ -39,7 +39,7 @@ function App() {
             <li>LSTM using word embeddings</li>
           </ul>
           <p>
-            To experiment with how the models perform on new data, try out the form below:
+            The project report can be found <a href="http://folk.ntnu.no/simehol/maskinlaering/TDT4173_project.pdf">here</a>. To experiment with how the models perform on new data, try out the form below:
           </p>
         </div>
         <ModelSelect
