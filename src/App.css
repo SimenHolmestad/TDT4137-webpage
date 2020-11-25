@@ -19,12 +19,32 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+.input-form {
+  display: flex;
+  flex-direction: column;
+  width:600px;
+}
+
+textarea {
+  height: 150px;
+}
+
 .App-link {
+  color: #61dafb;
+}
+
+.info-text {
+  text-align:left;
+  width:600px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.info-text a {
   color: #61dafb;
 }
 
