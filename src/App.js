@@ -17,9 +17,9 @@ function App() {
     setMachineLearningResponse(
       "Calculating results... (this might take som time)"
     );
-    const url = `https://europe-west1-tdt4173-ml-project.cloudfunctions.net/function-1?message=${reviewText}&model=${
-      modelSelect ? "kNN" : "LSTM"
-    }`;
+    const url = `https://europe-west1-tdt4173-ml-project.cloudfunctions.net/function-${
+      modelSelect ? "2" : "1"
+    }?message=${reviewText}`;
     const response = await fetch(url);
     const content = await response.text();
     const formatted_content = content.replaceAll("|", "\n");
