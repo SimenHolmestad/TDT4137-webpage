@@ -42,16 +42,16 @@ function App() {
             To experiment with how the models perform on new data, try out the form below:
           </p>
         </div>
+        <ModelSelect
+          value={modelSelect}
+          onValueChanged={(value) => setModel(value)}
+        />
         <InputForm
           reviewText={reviewText}
           setReviewText={setReviewText}
           handleSubmit={handleSubmit}
         />
         {NewlineText(machineLearningResponse)}
-        <ModelSelect
-          value={modelSelect}
-          onValueChanged={(value) => setModel(value)}
-        />
       </header>
     </div>
   );

@@ -1,10 +1,17 @@
 .selectContainer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  margin-bottom: 15px;
 }
 
 .selectRow {
   display: flex;
   width: 100px;
-  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.selectRow input {
+  margin-top: 12px;
+  margin-left: 12px;
 }
